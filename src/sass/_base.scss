@@ -1,7 +1,6 @@
 //colors
 $primary-design-color: saddlebrown;
 $secondary-design-color: lightgrey;
-$primary-font-color: purple;
 
 /* tiny reset */
 * {
@@ -19,13 +18,12 @@ body{
   font-family: sans-serif;
   color: white;
   background: aqua;
-  background: url("../../img/04134_sassolungo_800x480.jpg");
+  //background: url("../../img/04134_sassolungo_800x480.jpg");
   background-size: cover;
   background-repeat: repeat;
 }
 header{
-  margin: -1rem;
-  padding: 1px;
+  padding: 16px;
   text-align: center;
 }
 .board{
@@ -35,23 +33,22 @@ header{
   box-sizing: content-box;
   height: 480px;
   margin: auto;
-  //color: $primary-font-color;
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.tile{
-  width: 160px;
-  height: 160px;
-}
-.empty-tile{
-  background: $secondary-design-color;
-}
+//.tile{
+//  width: 160px;
+//  height: 160px;
+//}
+//.empty-tile{
+//  background: $secondary-design-color;
+//}
 footer{
   margin: auto;
-  padding: 8px;
+  padding: 32px;
   text-align: center;
-  font-weight: bold;
+  //font-weight: bold;
 }
